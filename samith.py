@@ -9,3 +9,9 @@ sum_result = num1 + num2
 
 # Display result
 print("The sum of", num1, "and", num2, "is:", sum_result)
+def add_numbers(a, b):
+    return a + b
+
+# Example usage
+print(add_numbers(5, 7))  # Output: 12
+
