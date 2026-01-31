@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SamitCloudTech.in</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+<!-- Profile Photo -->
+<div class="profile">
+    <img src="myphoto.jpg" alt="My Photo">
+</div>
+
+<!-- Header -->
+<header>
+    <h1>SamitCloudTech.in</h1>
+    <p>Aspiring Cloud & DevOps Engineer</p>
+</header>
+
+<!-- Main Layout -->
+<div class="container">
+
+    <!-- LEFT: SKILLS -->
+    <div class="box">
+        <img src="images/skills.jpg" class="banner">
+        <h2 onclick="loadSkills()">Skills</h2>
+        <div id="skills"></div>
+    </div>
+
+    <!-- MIDDLE: PROJECTS -->
+    <div class="box">
+        <img src="images/projects.jpg" class="banner">
+        <h2 onclick="loadProjects()">Projects</h2>
+        <div id="projects">
+            <p>Click Projects to open PDF</p>
+        </div>
+    </div>
+
+    <!-- RIGHT: CERTIFICATIONS -->
+    <div class="box">
+        <img src="images/certifications.jpg" class="banner">
+        <h2 onclick="loadCerts()">Certifications</h2>
+        <div id="certifications"></div>
+    </div>
+
+</div>
+
+<script src="js/app.js"></script>
+</body>
+</html>
+
