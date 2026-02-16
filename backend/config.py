@@ -1,4 +1,0 @@
-DB_HOST = "your-rds-endpoint"
-DB_USER = "admin"
-DB_PASSWORD = "password"
-DB_NAME = "portfolio"
