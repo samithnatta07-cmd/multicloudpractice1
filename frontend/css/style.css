@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #0a2540;
+    color: white;
+}
+
+/* Profile photo */
+.profile {
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.profile img {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    border: 3px solid #1e90ff;
+    object-fit: cover;
+}
+
+/* Header */
+header {
+    text-align: center;
+    padding: 30px;
+    border-bottom: 2px solid #1e90ff;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 36px;
+}
+
+header p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #cce6ff;
+}
+
+/* Layout */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    padding: 30px;
+}
+
+.box {
+    background-color: #102f5a;
+    padding: 20px;
+    border-radius: 10px;
+    min-height: 350px;
+}
+
+.box h2 {
+    text-align: center;
+    border-bottom: 1px solid #1e90ff;
+    padding-bottom: 10px;
+    cursor: pointer;
+    color: #cce6ff;
+}
+
+.box h2:hover {
+    color: #1e90ff;
+}
+
+ul {
+    margin-top: 15px;
+}
+/* existing styles stay same */
+
+/* Banner images */
+.banner {
+    width: 100%;
+    height: 140px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+    border: 2px solid #1e90ff;
+}
